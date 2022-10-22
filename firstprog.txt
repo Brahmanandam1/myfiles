@@ -1,0 +1,36 @@
+package firstprog;
+
+public class myFirstJavaProg {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("hello World");
+
+boolean a=false;
+System.out.println(a);
+char c1 = 'a';
+System.out.println(c1);
+char c2 = 70;
+System.out.println(c2);
+//downcasting 
+		byte marks=(byte)129;
+		System.out.println(marks);
+		
+		short amount=32750;
+		System.out.println(amount);
+		
+		int number=1234578989;
+		System.out.println(number);
+		
+		long phoneNumber=898656454589l;
+		System.out.println(phoneNumber);
+		
+		float studentMarks=15.5f;
+		System.out.println(studentMarks);
+		
+		double teachersMarks=20.5;
+		System.out.println(teachersMarks);
+		
+	}
+
+}
